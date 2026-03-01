@@ -43,7 +43,7 @@ try:
 except Exception as e:
     print(f"PDF creation failed (likely missing wkhtmltopdf): {e}")
     # Fallback to HTML
-    HTML_PATH = r"d:\AntiGravity\zomathon\Zomaton_PS2_Submission.html"
+    HTML_PATH = r"d:\AntiGravity\zomathon\Zomathon_PS2_Submission.html"
     with open(HTML_PATH, 'w', encoding='utf-8') as f:
         f.write(html_content)
     print(f"Fallback: Saved as HTML instead to {HTML_PATH}")
