@@ -3,7 +3,7 @@ import pdfkit
 import os
 
 MARKDOWN_PATH = r"C:\Users\KIIT0001\.gemini\antigravity\brain\312b7f27-98de-4bb4-8979-6edbd236bade\walkthrough.md"
-PDF_PATH = r"d:\AntiGravity\zomathon\Zomaton_PS2_Submission.pdf"
+PDF_PATH = r"d:\AntiGravity\zomathon\Zomathon_PS2_Submission.pdf"
 
 if not os.path.exists(MARKDOWN_PATH):
     print("Error: Markdown walkthrough not found.")
