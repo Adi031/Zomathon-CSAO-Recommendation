@@ -29,7 +29,7 @@ The codebase is organized into a modular, production-ready MLOps structure:
 ### Prerequisites
 - Python 3.9+
 - A virtual environment is highly recommended.
-- Install dependencies: `pip install pandas numpy scikit-learn lightgbm fastapi uvicorn requests sentence-transformers`
+- Install dependencies: `pip install -r requirements.txt`
 
 ### Phase 1: Data Generation & Preprocessing
 If you wish to re-generate the synthetic dataset from scratch, run the scripts in order:
